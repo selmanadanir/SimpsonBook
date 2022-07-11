@@ -13,6 +13,8 @@
 		B3D8E3D4287C648200427055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D8E3D2287C648200427055 /* Main.storyboard */; };
 		B3D8E3D6287C648600427055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D8E3D5287C648600427055 /* Assets.xcassets */; };
 		B3D8E3D9287C648600427055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D8E3D7287C648600427055 /* LaunchScreen.storyboard */; };
+		B3D8E3E1287C67AF00427055 /* detailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D8E3E0287C67AF00427055 /* detailsViewController.swift */; };
+		B3D8E3E3287C851000427055 /* Simpson.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D8E3E2287C851000427055 /* Simpson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B3D8E3D5287C648600427055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3D8E3D8287C648600427055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3D8E3DA287C648600427055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D8E3E0287C67AF00427055 /* detailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsViewController.swift; sourceTree = "<group>"; };
+		B3D8E3E2287C851000427055 /* Simpson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				B3D8E3CC287C648200427055 /* AppDelegate.swift */,
 				B3D8E3CE287C648200427055 /* SceneDelegate.swift */,
+				B3D8E3E0287C67AF00427055 /* detailsViewController.swift */,
 				B3D8E3D0287C648200427055 /* ViewController.swift */,
+				B3D8E3E2287C851000427055 /* Simpson.swift */,
 				B3D8E3D2287C648200427055 /* Main.storyboard */,
 				B3D8E3D5287C648600427055 /* Assets.xcassets */,
 				B3D8E3D7287C648600427055 /* LaunchScreen.storyboard */,
@@ -141,6 +147,8 @@
 				B3D8E3D1287C648200427055 /* ViewController.swift in Sources */,
 				B3D8E3CD287C648200427055 /* AppDelegate.swift in Sources */,
 				B3D8E3CF287C648200427055 /* SceneDelegate.swift in Sources */,
+				B3D8E3E1287C67AF00427055 /* detailsViewController.swift in Sources */,
+				B3D8E3E3287C851000427055 /* Simpson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
